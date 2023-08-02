@@ -1,0 +1,53 @@
+help:
+  - /help/index/
+  - /help/getting-started/
+  - /help/bump-cli/
+  - type: category
+    label: Continuous Integration
+    link: /help/continuous-integration/index/
+    collapsible: true
+    collapsed: true
+    items:
+      - /help/continuous-integration/github-actions/
+  - type: category
+    label: Specification Support
+    link: /help/specification-support/index/
+    collapsible: true
+    collapsed: true
+    items:
+      - type: category
+        label: OpenAPI support
+        link: /help/specification-support/openapi-support/
+        items:
+          - /help/specification-support/openapi-support/name-and-sort-resources/
+          - /help/specification-support/openapi-support/webhooks/
+      - /help/specification-support/asyncapi-support/
+      - /help/specification-support/markdown-support/
+      - /help/specification-support/polymorphism/
+      - /help/specification-support/references/
+  - type: category
+    label: API change management
+    link: /help/api-change-management/index/
+    collapsible: true
+    collapsed: true
+    items:
+      - /help/api-change-management/webhooks/
+  - /help/branching/
+  - /help/hubs/
+  - /help/access-management/
+  - type: category
+    label: Organizations
+    link: /help/organizations/index/
+    collapsible: true
+    collapsed: true
+    items:
+      - /help/organizations/single-sign-on-sso/
+  - type: category
+    label: Documentation customization
+    collapsible: true
+    collapsed: true
+    items:
+      - /help/doc-topics/
+      - /help/custom-domains/
+      - /help/meta-images/
+  - /help/faq/
