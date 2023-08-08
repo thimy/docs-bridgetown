@@ -1,5 +1,5 @@
 help:
-  - /help/index/
+  - /help/
   - /help/getting-started/
   - /help/bump-cli/
   - type: category
@@ -47,7 +47,7 @@ help:
     collapsible: true
     collapsed: true
     items:
-      - /help/doc-topics/
-      - /help/custom-domains/
-      - /help/meta-images/
+      - /help/documentation-customization/doc-topics/
+      - /help/documentation-customization/custom-domains/
+      - /help/documentation-customization/meta-images/
   - /help/faq/

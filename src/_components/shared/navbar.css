@@ -1,0 +1,24 @@
+header {
+  align-items: center;
+  border-bottom: var(--border-default);
+  display: grid;
+  gap: var(--gap-default);
+  grid-template-columns: auto 1fr;
+  padding: var(--spacing-4);
+}
+
+header a {
+  display: flex;
+}
+
+header img {
+  height: 32px;
+}
+
+header nav {
+  display: flex;
+  justify-self: end;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}

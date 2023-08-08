@@ -1,6 +1,5 @@
 ---
 title: Meta images
-top_section: Documentation customization
 ---
 
 ## Add your own image

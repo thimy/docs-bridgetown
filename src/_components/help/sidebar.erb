@@ -1,7 +1,12 @@
-<nav>
-  <ul>
-    <% @sidebar.help.each do |page| %>
-      <%= render Help::SidebarItems.new(page: page, page_list: @page_list) %>
-    <% end %>
-  </ul>
-</nav>
+<bump-sidebar>
+  <%= dsd do %>
+    <aside>
+      <ul>
+        <% @sidebar.help.each do |page| %>
+          <%= render Help::Sidebar::Item.new(page: page, page_list: @page_list) %>
+        <% end %>
+      </ul>
+    </aside>
+    <%= dsd_style %>
+  <% end %>
+</bump-sidebar>

@@ -1,0 +1,20 @@
+<li>
+  <% if @page.is_a? String %>
+    <% if resource.present? %>
+      <a class="item" href="<%= resource.relative_url %>"><%= resource.data.title %></a>
+    <% else %>
+      <a class="item" href=""><%= @page %></a>
+    <% end %>
+  <% else %>
+    <% if @page.link %>
+      <a class="item" href="<%= @page.link %>"><%= @page.label %></a>
+    <% else %>
+      <div class="item"><%= @page.label %></div>
+    <% end %>
+    <ul>
+      <% @page.items.each do |subpage| %>
+        <%= render Help::Sidebar::Item.new(page: subpage, page_list: @page_list) %>
+      <% end %>
+    </ul>
+  <% end %>
+</li>

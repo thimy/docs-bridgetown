@@ -1,12 +1,11 @@
 <header>
-  <img src="<%= relative_url '/images/logo.svg' %>" alt="Logo" />
-</header>
+  <a href="/">
+    <img src="<%= relative_url '/images/bump-logo.svg' %>" alt="Logo" />
+  </a>
 
-<nav>
-  <ul>
-    <li><a href="<%= relative_url '/' %>">Home</a></li>
-    <li><a href="<%= relative_url '/help' %>">Documentation</a></li>
-    <li><a href="<%= relative_url '/updates' %>">Product Updates</a></li>
-    <li><a href="<%= relative_url '/guides' %>">Guides</a></li>
-  </ul>
-</nav>
+  <nav>
+    <% @site.data.navbar.navbar.each do |item| %>
+      <%= render Shared::Nav::Item.new(title: item.title, link: item.link) %>
+    <% end %>
+  </nav>
+</header>

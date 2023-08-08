@@ -1,6 +1,5 @@
 ---
 title: Custom domains
-top_section: Documentation customization
 ---
 
 Your docs are hosted on Bump.sh. However you can set a custom domain: visitors of your docs will stay within your brand experience. For this, you'll use a CNAME.

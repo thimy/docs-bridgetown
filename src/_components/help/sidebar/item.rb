@@ -1,4 +1,4 @@
-class Help::SidebarItems < Bridgetown::Component
+class Help::Sidebar::Item < Bridgetown::Component
   def initialize(page:, page_list:)
     @page, @page_list = page, page_list
   end

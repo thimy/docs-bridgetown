@@ -1,1 +1,3 @@
-layout: help
+layout: default
+sidebar: true
+page_class: help

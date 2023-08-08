@@ -3,8 +3,13 @@
   <head>
     <%= render "head", metadata: site.metadata, title: data.title %>
   </head>
-  <body class="<%= data.layout %> <%= data.page_class %>">
+  <body class="<%= data.page_class %>">
+    <%# lit :bump_navbar, logo: relative_url('/images/bump-logo.svg') %>
     <%= render Shared::Navbar.new(metadata: site.metadata, resource: resource) %>
+
+    <% if data.sidebar %>
+      <%= render Help::Sidebar.new(metadata: site.metadata, resource: resource, sidebar: site.data.sidebar, page_list: collections.pages.resources, current: resource) %>
+    <% end %>
 
     <main>
       <%= yield %>

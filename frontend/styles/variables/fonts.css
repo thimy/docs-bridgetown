@@ -1,0 +1,14 @@
+:root {
+  --font-text: "Avenir Next";
+
+  --text-color: var(--gray-70);
+
+  --link-color: var(--blue-60);
+  --link-color-hover: var(--gray-50);
+
+  --page-content-width: 1300px;
+
+  --gap-default: var(--spacing-6);
+
+  --doc-sidebar-width: 300px;
+}

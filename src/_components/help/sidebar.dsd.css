@@ -1,0 +1,44 @@
+aside {
+  border-right: var(--border-default);
+  padding-block: var(--spacing-10);
+  width: var(--doc-sidebar-width);
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-2);
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-2);
+}
+
+li > ul {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-2);
+  list-style-type: none;
+  margin: 0;
+  padding-left: var(--spacing-4);
+}
+
+.item,
+.item:is(:focus, :visited) {
+  color: var(--text-color);
+  padding-inline: var(--spacing-4);
+  text-decoration: none;
+}
+
+.item:hover {
+  color: var(--link-color-hover);
+}
+
+.item[aria-current="page"] {
+  color: var(--link-color);
+}

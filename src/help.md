@@ -1,6 +1,8 @@
 ---
-layout: help
-title: Help
+layout: default
+sidebar: true
+page_class: help
+title: Home
 ---
 
 # Bump.sh Documentation
