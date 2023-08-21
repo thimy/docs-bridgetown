@@ -1,9 +1,9 @@
 <bump-sidebar>
   <%= dsd do %>
     <aside>
-      <ul>
+      <ul class="sidebar-list">
         <% @sidebar.help.each do |page| %>
-          <%= render Help::Sidebar::Item.new(page: page, page_list: @page_list) %>
+          <%= render Help::Sidebar::Item.new(page: page, page_list: @page_list, current: @current) %>
         <% end %>
       </ul>
     </aside>

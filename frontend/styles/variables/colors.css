@@ -119,4 +119,6 @@
   --darkest-purple: var(--purple-100);
   --purple: var(--purple-60);
   --light-purple: var(--purple-10);
+
+  --doc-base-color: var(--blue-60);
 }

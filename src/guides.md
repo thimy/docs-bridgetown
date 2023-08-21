@@ -8,6 +8,14 @@ paginate:
   sort_reverse: true
 ---
 
+<ul>
+  {% for post in paginator.resources %}
+    <li>
+      <a href="{{ post.relative_url }}">{{ post.data.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
 {% if paginator.total_pages > 1 %}
   <ul class="pagination">
     {% if paginator.previous_page %}

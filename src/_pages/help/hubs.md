@@ -1,6 +1,5 @@
 ---
 title: Hubs
-top_section: Documentation customization
 ---
 
 Easily create APIs catalogs to help your developers or consumers discover and synchronize with your entire APIs ecosystem. Only available with the Business plan.

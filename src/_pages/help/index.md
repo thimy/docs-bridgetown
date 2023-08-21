@@ -1,11 +1,6 @@
 ---
-layout: default
-sidebar: true
-page_class: help
-title: Home
+title: Bump.sh Documentation
 ---
-
-# Bump.sh Documentation
 
 Learn how to get the most of Bump.sh for your API ecosystem.
 

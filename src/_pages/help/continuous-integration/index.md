@@ -1,5 +1,5 @@
 ---
-title: Continuous integration
+title: Continuous Integration
 ---
 
 How to integrate your documentation deployment to your CI.

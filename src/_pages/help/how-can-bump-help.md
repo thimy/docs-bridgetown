@@ -1,6 +1,5 @@
 ---
 title: How can Bump.sh help you?
-top_section: Documentation customization
 ---
 
 // Work in Progress 

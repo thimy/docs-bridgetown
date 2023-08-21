@@ -14,7 +14,6 @@ body > footer {
   grid-area: footer;
 }
 
-
 body.help {
   display: grid;
   grid-template-areas:

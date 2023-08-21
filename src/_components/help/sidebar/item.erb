@@ -1,19 +1,13 @@
 <li>
-  <% if @page.is_a? String %>
-    <% if resource.present? %>
-      <a class="item" href="<%= resource.relative_url %>"><%= resource.data.title %></a>
-    <% else %>
-      <a class="item" href=""><%= @page %></a>
-    <% end %>
+  <% if resource.present? %>
+    <a class="item" href="<%= resource.relative_url %>"<% if is_current? %> aria-current="true"<% end %>><%= @page.label %></a>
   <% else %>
-    <% if @page.link %>
-      <a class="item" href="<%= @page.link %>"><%= @page.label %></a>
-    <% else %>
-      <div class="item"><%= @page.label %></div>
-    <% end %>
-    <ul>
+    <div class="item"<% if is_current? %> aria-current="true"<% end %>><%= @page.label %></div>
+  <% end %>
+  <% if is_category? %>
+    <ul class="sidebar-sublist">
       <% @page.items.each do |subpage| %>
-        <%= render Help::Sidebar::Item.new(page: subpage, page_list: @page_list) %>
+        <%= render Help::Sidebar::Item.new(page: subpage, page_list: @page_list, current: @current) %>
       <% end %>
     </ul>
   <% end %>
