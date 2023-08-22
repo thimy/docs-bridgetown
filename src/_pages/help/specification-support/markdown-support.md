@@ -132,7 +132,7 @@ You can use any of the following CSS length units as `unit`:
 
 ## Markdown files as an external reference
 
-Markdown files can be included as an [external reference](references) within your contract document with the $ref syntax `$ref: "./path/to/local-markdown.md"`. In the same way you can extract part of your contract (usually JSON schema of your models into dedicated `*.yaml` or `*.json` files), you can extract your markdown content into dedicated files too.
+Markdown files can be included as an [external reference](../references) within your contract document with the $ref syntax `$ref: "./path/to/local-markdown.md"`. In the same way you can extract part of your contract (usually JSON schema of your models into dedicated `*.yaml` or `*.json` files), you can extract your markdown content into dedicated files too.
 
 **E.g.** Your OpenAPI contract `api-contract.yml` can thus looks like:
 

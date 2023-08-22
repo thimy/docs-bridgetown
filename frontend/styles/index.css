@@ -1,11 +1,14 @@
 @import "../fonts/avenir.css";
 
 @import "variables/spacings.css";
+@import "variables/sizes.css";
 @import "variables/colors.css";
 @import "variables/fonts.css";
 @import "variables/borders.css";
 
 @import "layout.css";
+
+@import "pages/help.css";
 
 body {
   font-family: var(--font-text);
@@ -23,4 +26,15 @@ body {
 
 .wrapper > * {
   grid-column: 2;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: var(--font-weight-normal);
+}
+
+:is(a, a:focus, a:visited) {
+  color: var(--link-color);
 }

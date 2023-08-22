@@ -10,7 +10,7 @@ The following assumes your local machine is configured with PHP and API Platform
 
 1. [Create and name](https://bump.sh/docs/new?utm_source=bump&utm_medium=content_hub&utm_campaign=getting_started) your first API documentation.
 
-2. Install the Bump.sh CLI with [npm](https://docs.npmjs.com/cli/v9/configuring-npm/install?v=true) as below, or use [alternative options](../bump-cli.md), with
+2. Install the Bump.sh CLI with [npm](https://docs.npmjs.com/cli/v9/configuring-npm/install?v=true) as below, or use [alternative options](../../bump-cli), with
 
 ```bash
 npm install -g bump-cli
@@ -24,4 +24,4 @@ npm install -g bump-cli
 bump deploy https://localhost/docs.json --doc my-documentation
 ```
 
-That's it! Enjoy the comfort of Bump.sh to browse through your API doc, and [customize it to your needs](/index.md//#customization-options).
+That's it! Enjoy the comfort of Bump.sh to browse through your API doc, and [customize it to your needs](../quick-start/#customization-options).

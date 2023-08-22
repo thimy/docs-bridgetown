@@ -13,7 +13,7 @@ help:
         link: /help/getting-started/quick-start/
       - /type: page
         label: Deploying docs from API Platform
-        link: help/getting-started/api-platform/
+        link: /help/getting-started/api-platform/
       - type: page
         label: Deploying docs from FastAPI
         link: /help/getting-started/fastapi/

@@ -14,7 +14,7 @@ We recommend two steps in your automation flow: a **validation** one during deve
 
 ### API diff for each proposed change request
 
-With our [Github Action](github-actions.md), you can receive automatic API diff comments directly on your pull requests. This is done thanks to the `bump diff` command under the hood which will run each time a pull request is created or updated. It will make sure to fail the build if the documentation file is not valid.
+With our [Github Action](github-actions), you can receive automatic API diff comments directly on your pull requests. This is done thanks to the `bump diff` command under the hood which will run each time a pull request is created or updated. It will make sure to fail the build if the documentation file is not valid.
 
 ### Plain validation
 
@@ -45,7 +45,7 @@ Note that if you don't want to keep the private token and id in your code base, 
 
 - `BUMP_ID`: your documentation public slug or id
 - `BUMP_TOKEN`: your documentation private token
-- `BUMP_HUB_ID`: if [using hubs](https://help.bump.sh/hubs), your hub public slug or id
+- `BUMP_HUB_ID`: if [using hubs](../hubs), your hub public slug or id
 
 
 

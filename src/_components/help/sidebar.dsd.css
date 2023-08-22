@@ -40,17 +40,20 @@ li {
 }
 
 .sidebar-sublist {
+  border-left: var(--border-default);
   list-style-type: none;
   margin: 0;
-  padding-left: var(--spacing-4);
+  margin-bottom: var(--spacing-2);
+  margin-left: var(--spacing-4);
 }
 
 .sidebar-sublist .item {
-  border-left: var(--border-default);
+  border-left: 2px solid transparent;
   border-radius: 0;
+  margin-left: -1px;
 }
 
 .sidebar-sublist .item[aria-current="true"] {
   background: none;
-  border-left: 2px solid var(--doc-base-color);
+  border-color: var(--doc-base-color);
 }

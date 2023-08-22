@@ -11,14 +11,14 @@ This quick start guide is made for you, if you are actively writing OpenAPI or A
 After creating your account, you'll be asked [to create and name](https://bump.sh/docs/new?utm_source=bump&utm_medium=content_hub&utm_campaign=getting_started) your first API documentation.
 By default, your documentation URL will use the same name: you can customize it in the slug field. You can also use [custom domains](custom-domains.md), which we'll explain later.
 
-![](/files/help/doc-creation.png)
+![](/images/help/doc-creation.png)
 
 ### Step 2: Upload your file
 
 If you already have a specification file, you can immediately upload it.
 You can also use our examples to see Bump.sh in action. Finally, our [CLI](bump-cli.md) can also be directly used to jump in.
 
-![](/files/help/upload-spec-file.png)
+![](/images/help/upload-spec-file.png)
 
 ### Step 3: Enjoy
 
@@ -46,7 +46,7 @@ You can setup [Custom Domains](custom-domains.md), to make your doc available be
 Several branding options are available: from your logo to [Meta Images](meta-images.md) (that helps sharing your doc in a fancy way).
 We also support [Documentation Topics](doc-topics.md), that helps you adding rich (con)text to your API doc, sharing the informations your community needs.
 
-![](/files/help/meta-image-2.png)
+![](/images/help/meta-image-2.png)
 
 ## And way more
 

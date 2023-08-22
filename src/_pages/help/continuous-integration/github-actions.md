@@ -85,7 +85,7 @@ jobs:
 
 ### API diff on pull requests & Deploy on push
 
-This is the most common workflow that we [recommend](https://help.bump.sh/continuous-integration#integrate-with-your-ci), which will create two steps in your automation flow: a validation & diff step on code reviews, followed by a deployment step on merged changes.
+This is the most common workflow that we [recommend](../../continuous-integration/#integrate-with-your-ci), which will create two steps in your automation flow: a validation & diff step on code reviews, followed by a deployment step on merged changes.
 
 `.github/workflows/bump.yml`
 
