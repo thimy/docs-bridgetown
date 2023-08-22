@@ -10,13 +10,11 @@ Bump is a Continuous Documentation Platform: it lets you keep your API doc alway
 
 Start by creating a documentation on [Bump](https://bump.sh/users/sign_up). Then add one of the following workflow file to your GitHub project.
 
-:::info
-In all the examples below, make sure to change the branch name _`main`_with the name of your repository main destination branch, replace _`<BUMP_DOC_ID>`_ with your Bump documentation slug or id and change the filepath_`doc/api-documentation.yml`_with your api specification file path.
-:::
+> In all the examples below, make sure to change the branch name _`main`_ with the name of your repository main destination branch, replace _`<BUMP_DOC_ID>`_ with your Bump documentation slug or id and change the filepath _`doc/api-documentation.yml`_ with your api specification file path.
+{: .info}
 
-:::caution
-[`actions/checkout`](https://github.com/actions/checkout) has to be called **before our action**.
-:::
+> [`actions/checkout`](https://github.com/actions/checkout) has to be called **before our action**.
+{: .caution}
 
 ### Deploy on `git push`
 

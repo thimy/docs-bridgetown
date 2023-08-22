@@ -121,4 +121,15 @@
   --light-purple: var(--purple-10);
 
   --doc-base-color: var(--blue-60);
+  --bg-color-secondary: var(--gray-10);
+
+  --text-color-success: var(--green);
+  --text-color-warning: var(--orange);
+  --text-color-error: var(--red);
+  --text-color-info: var(--blue);
+
+  --bg-color-success: var(--light-green);
+  --bg-color-warning: var(--light-orange);
+  --bg-color-error: var(--light-red);
+  --bg-color-info: var(--lighter-blue);
 }

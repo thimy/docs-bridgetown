@@ -1,0 +1,61 @@
+/* usage of :is makes specificity lower */
+:is(h1, h2, h3, h4, h5, h6) {
+  font-weight: var(--font-weight-normal);
+}
+
+:is(a, a:focus, a:visited) {
+  color: var(--link-color);
+}
+
+:is(strong) {
+  font-weight: var(--font-weight-semibold);
+}
+
+:is(code) {
+  --code-bg-color: var(--bg-color-secondary);
+  --code-border: var(--border-default);
+  --code-border-radius: var(--border-radius-small);
+
+  background-color: var(--code-bg-color);
+  border: var(--code-border);
+  border-radius: var(--code-border-radius);
+  font-size: 0.75rem;
+  padding: var(--spacing-px) var(--spacing-1);
+}
+
+pre :is(code) {
+  --code-bg-color: transparent;
+  --code-border: 0;
+}
+
+:is(blockquote) {
+  --callout-bg-color: var(--bg-color-secondary);
+  --callout-border-color: var(--border-color-default);
+
+  background-color: var(--callout-bg-color);
+  border-left: 4px solid var(--callout-border-color);
+  border-radius: var(--border-radius-medium);
+  display: flex;
+  margin-inline: 0;
+  padding-inline: var(--spacing-12) var(--spacing-3);
+}
+
+:is(blockquote.info) {
+  --callout-bg-color: var(--bg-color-info);
+  --callout-border-color: var(--text-color-info);
+}
+
+:is(blockquote.success) {
+  --callout-bg-color: var(--bg-color-success);
+  --callout-border-color: var(--text-color-success);
+}
+
+:is(blockquote.warn) {
+  --callout-bg-color: var(--bg-color-warn);
+  --callout-border-color: var(--text-color-warn);
+}
+
+:is(blockquote.error) {
+  --callout-bg-color: var(--bg-color-error);
+  --callout-border-color: var(--text-color-error);
+}
